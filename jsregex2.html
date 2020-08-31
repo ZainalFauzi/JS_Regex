@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var masuk = prompt("Masukkan nomor telepon :")
+
+let check = /^\d{10,12}$/;
+let hasil = check.test(masuk)
+if (hasil == true) {
+    alert("Nomor telepon anda telah di validasi")
+} else {
+    alert("Nomor telepon yang anda masukkan salah")
+}
+    </script>
+    
+</body>
+</html>

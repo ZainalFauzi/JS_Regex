@@ -1,5 +1,4 @@
-
-//SOAL 1
+//SOAL 1--------------------------------------
 var masuk = prompt("Masukkan kata :")
 
 let check = /^[A-Z*]/;
@@ -9,4 +8,4 @@ if (hasil == true) {
 } else if (hasil == false) {
     alert("Huruf pertama adalah huruf kecil")
 }
-//------------------------
+//---------------------------------------------
